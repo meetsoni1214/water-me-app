@@ -44,5 +44,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
         val data = viewModel.plants
         adapter.submitList(data)
+        
+        Log.d("MainActivity", "Hello I have done this change from remote repository")
     }
 }
